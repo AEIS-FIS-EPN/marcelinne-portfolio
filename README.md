@@ -13,3 +13,15 @@ Welcome to my personal portfolio repository, crafted using React.js and Vite. In
 # Requirements
 * Node.js v21
 
+## Installation
+
+1. Clone the repository.
+2. Install dependencies using Yarn:
+``` bash
+    yarn install
+```
+3. Execute the app
+``` bash
+    yarn dev
+```
+
