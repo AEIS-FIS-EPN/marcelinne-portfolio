@@ -23,7 +23,7 @@ const playlists = [
     title: 'Projects',
     color: colors.rose,
     cover: '/images/Projects_cover.jpeg',
-    artists: ['Web Development', 'Data', 'UX/UI']
+    artists: ['Web Development', 'Data']
   }
 ]
 

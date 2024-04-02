@@ -1,11 +1,11 @@
 import { SideMenuItem } from './SideMenuItem'
 import { playlists } from '../lib/data'
-import { SideMenuCard } from './SideMenuCard.jsx'
+import { SideMenuCard } from './SideMenuCard'
 // import {HomeIcon} from "../icons/Home"
 export function AsideMenu () {
   return (
     <>
-    <nav className="flex flex-col flex-1 gap-2">
+    <nav className="flex flex-col flex-1 gap-2 bg-black">
     <div className="bg-zinc-900 rounded-lg p-2">
         <ul>
             <SideMenuItem href="/#">
