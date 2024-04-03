@@ -1,6 +1,8 @@
+import React from 'react'
 import { SideMenuItem } from './SideMenuItem'
 import { playlists } from '../lib/data'
 import { SideMenuCard } from './SideMenuCard'
+import { ArceIcon } from './ArceIcon'
 // import {HomeIcon} from "../icons/Home"
 export function AsideMenu () {
   return (
@@ -9,7 +11,7 @@ export function AsideMenu () {
     <div className="bg-zinc-900 rounded-lg p-2">
         <ul>
             <SideMenuItem href="/#">
-                {/* <SearchIcon /> */}
+                <ArceIcon />
                 Marcelinne
             </SideMenuItem>
                 <SideMenuItem href="/">
@@ -25,7 +27,7 @@ export function AsideMenu () {
                 {/* <LibraryIcon /> */}
                 Menu
             </SideMenuItem>
-            {playlists.map((playlist) => <SideMenuCard playlist={playlist} />)}
+            {playlists.map((playlist) => <SideMenuCard key={playlist.id} playlist={playlist} />)}
         {/* {playlists.map((playlist) => <SideMenuCard playlist={playlist} />)} */}
         </ul>
     </div>

@@ -1,3 +1,5 @@
+import React from 'react'
+
 export function Cover ({ children }) {
   return (
     <section className="flex h-64 items-center p-9 justify-self-end rounded-lg bg-[#933931]">

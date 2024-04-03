@@ -1,4 +1,5 @@
-import { playlists } from '../lib/data'
+import React from 'react'
+// import { playlists } from "../lib/data";
 
 export const SideMenuCard = ({ playlist }) => {
   const { id, cover, title, artists } = playlist
@@ -19,13 +20,9 @@ export const SideMenuCard = ({ playlist }) => {
       </picture>
 
       <div className="flex flex-auto flex-col truncate">
-        <h4 className="text-white text-sm">
-          {title}
-        </h4>
+        <h4 className="text-white text-sm">{title}</h4>
 
-        <span className="text-xs text-gray-400">
-          {artistsString}
-        </span>
+        <span className="text-xs text-gray-400">{artistsString}</span>
       </div>
     </a>
   )

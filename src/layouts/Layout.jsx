@@ -1,7 +1,7 @@
 //   Layout.propTypes = {
 //     title: PropTypes.string.isRequired,
 // };
-
+import React from 'react'
 import './Layout.css'
 import { AsideMenu } from '../components/AsideMenu.jsx'
 import { Cover } from '../components/Cover.jsx'
